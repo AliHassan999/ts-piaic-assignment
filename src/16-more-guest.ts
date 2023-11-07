@@ -17,3 +17,7 @@ moreGuest.forEach((person: string) => {
 
 // Question 19 Answer
 console.log(`${moreGuest.length} peoples are coming to the dinner`);
+
+export { moreGuest };
+
+

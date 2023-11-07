@@ -1,22 +1,15 @@
-function addition(a: number, b: number) {
-    return a + b;
-}
-console.log(`Addition: ${addition(4, 4)}`); 
+// Addition
+const additionResult = 5 + 3;
+console.log(`Sum of 5 + 3 Is: ${additionResult}`);
 
-function subtraction(a: number, b: number) {
-    return a - b;
-}
+// Subtraction
+const subtractionResult = 15 - 7;
+console.log(`Subtraction of 15 - 7 Is: ${subtractionResult}`); 
 
-console.log(`Subtraction: ${subtraction(16, 8)}`); 
+// Multiplication
+const multiplicationResult = 4 * 2;
+console.log(`Multiplication of 4 * 2 Is: ${multiplicationResult}`);
 
-function multiplication(a: number, b: number) {
-    return a * b;
-}
-
-console.log(`Multiplication: ${multiplication(4, 2)}`); 
-
-function division(a: number, b: number) {
-    return a / b;
-}
-
-console.log(`Division: ${division(16, 2)}`);
+// Division
+const divisionResult = 16 / 2;
+console.log(`Division of 16 / 2 I: ${divisionResult}`);

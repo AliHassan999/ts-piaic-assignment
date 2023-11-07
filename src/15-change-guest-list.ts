@@ -1,4 +1,3 @@
-
 const guestLists: string[] = ["Usman", "Azhar", "Salman"];
 
 console.log("Original Guest List:");
@@ -22,3 +21,5 @@ guestLists.forEach((person: string) => {
 guestLists.forEach((person: string) => {
     console.log(`Dear ${person}, I would like to invite you to dinner. Your presence would be an honor.`);
 });
+
+export { guestLists };

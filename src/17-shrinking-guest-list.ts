@@ -17,3 +17,4 @@ shrinkingGuestList.splice(0, 2);
 
 
 console.log("Final Guest List:", shrinkingGuestList);
+export { shrinkingGuestList };

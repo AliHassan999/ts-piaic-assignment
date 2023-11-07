@@ -1,8 +1,11 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.moreGuest = void 0;
 let moreGuest = ["Usman", "Azhar", "Salman"];
+exports.moreGuest = moreGuest;
 console.log("Good news! We found a bigger dinner table. There's more room for everyone!");
 // Add a new guest to the beginning of the array
-moreGuest = ["Arsalan", ...moreGuest];
+exports.moreGuest = moreGuest = ["Arsalan", ...moreGuest];
 const newGuestMiddle = "Aun";
 const middleIndex = Math.floor(moreGuest.length / 2);
 moreGuest.splice(middleIndex, 0, newGuestMiddle);

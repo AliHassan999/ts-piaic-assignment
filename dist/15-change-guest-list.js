@@ -1,5 +1,8 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.guestLists = void 0;
 const guestLists = ["Usman", "Azhar", "Salman"];
+exports.guestLists = guestLists;
 console.log("Original Guest List:");
 guestLists.forEach((person) => {
     console.log(person);
